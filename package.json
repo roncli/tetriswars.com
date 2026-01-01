@@ -21,7 +21,7 @@
         "@roncli/node-application-insights-logger": "roncli/node-application-insights-logger#v2.0.1",
         "@roncli/node-minify": "roncli/node-minify#v1.2.4",
         "compression": "1.8.1",
-        "express": "5.1.0",
+        "express": "5.2.1",
         "hot-router": "2.0.0-beta.6",
         "html-minifier-terser": "7.2.0",
         "lru-cache": "11.2.4"
@@ -29,7 +29,7 @@
     "devDependencies": {
         "@eslint/js": "9.39.1",
         "@stylistic/eslint-plugin": "5.5.0",
-        "@types/express": "5.0.5",
+        "@types/express": "5.0.6",
         "@types/html-minifier-terser": "7.0.2",
         "@types/node": "25.0.3",
         "eslint-plugin-jsdoc": "61.1.12"
