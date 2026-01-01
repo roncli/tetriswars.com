@@ -1,0 +1,86 @@
+#home {
+    display: grid;
+    grid-template-columns: minmax(0, min-content) max-content max-content;
+    gap: 16px;
+    align-items: center;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+#homeLogo {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    display: block;
+    width: clamp(80px, 25vw, 500px);
+    box-sizing: border-box;
+    padding: 8px;
+    background: var(--logo-bg);
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 80px;
+    min-height: 80px;
+    object-fit: cover;
+}
+
+#home>div {
+    grid-column: 2;
+    padding: 6px 0;
+    justify-self: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#home>a {
+    grid-column: 3;
+    justify-self: start;
+    display: inline-block;
+    padding: 6px 6px;
+}
+
+#home>a img {
+    display: block;
+    width: 128px;
+    height: 128px;
+}
+
+/* Small improvements for spacing / vertical centering if you want larger buttons centered vertically */
+#home>a, #home>div {
+    align-self: center;
+}
+
+/* Responsive: stack vertical on small screens */
+@media (max-width: 720px) {
+    #home {
+        grid-template-columns: 1fr;
+        gap: 2px;
+        padding: 18px;
+    }
+
+    #homeLogo {
+        grid-row: auto;
+        width: 128px;
+        padding: 6px;
+    }
+
+    #homeLogo, #home>div, #home>a {
+        grid-column: 1;
+    }
+
+    #home>a {
+        padding-left: 0;
+        justify-self: center;
+    }
+
+    #home>img {
+        justify-self: center;
+    }
+
+    #home>a img {
+        width: 50px;
+        height: 50px;
+    }
+}

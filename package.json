@@ -1,0 +1,40 @@
+{
+    "name": "tetriswars.com",
+    "version": "0.0.1",
+    "description": "The website and bot for Classic Tetris Wars.",
+    "homepage": "https://github.com/roncli/tetriswars.com",
+    "bugs": {
+        "url": "https://github.com/roncli/tetriswars.com/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/roncli/tetriswars.com.git"
+    },
+    "main": "index.js",
+    "author": {
+        "name": "Ronald M. Clifford",
+        "email": "roncli@roncli.com",
+        "url": "https://roncli.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@roncli/node-application-insights-logger": "roncli/node-application-insights-logger#v2.0.1",
+        "@roncli/node-minify": "roncli/node-minify#v1.2.4",
+        "compression": "1.8.1",
+        "express": "5.1.0",
+        "hot-router": "2.0.0-beta.6",
+        "html-minifier-terser": "7.2.0",
+        "lru-cache": "11.2.2"
+    },
+    "devDependencies": {
+        "@eslint/js": "9.39.1",
+        "@stylistic/eslint-plugin": "5.5.0",
+        "@types/express": "5.0.5",
+        "@types/html-minifier-terser": "7.0.2",
+        "@types/node": "24.10.0",
+        "eslint-plugin-jsdoc": "61.1.12"
+    },
+    "scripts": {
+        "reinstall": "(if exist node_modules rmdir /s /q node_modules) & npm install"
+    }
+}

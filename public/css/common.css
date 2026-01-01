@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --framing-fg: #ffffff;
+    --framing-bg: #030f38;
+    --logo-bg: #061e70;
+    --page-bg: #0b0b0b;
+    --page-fg: #eeeeee;
+    --card-bg: #020a26;
+    --link-fg: #82aaff;
+    --box-shadow: rgba(12, 60, 224, 0.35);
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background: var(--page-bg);
+    color: #e6eef6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    letter-spacing: 0.4px;
+}
+
+h1 {
+    font-family: Oswald, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+h2 {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+#header, #footer {
+    color: var(--framing-fg);
+    background: var(--framing-bg);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 2px 6px var(--box-shadow);
+    padding: 0 50px;
+}
+
+#headerlogo {
+    background: var(--logo-bg);
+    border-radius: 50%;
+    margin: 4px;
+    width: 128px;
+    height: 128px;
+}
+
+#headertext {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    justify-content: center;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-top: auto;
+    box-shadow: 0 -2px 6px var(--box-shadow);
+    padding: 14px 0;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    padding: 36px 18px;
+    gap: 20px;
+}
+
+#body>* {
+    width: 100%;
+    max-width: 1100px;
+    background: var(--card-bg);
+    color: var(--page-fg);
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px var(--box-shadow);
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--link-fg);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    background: var(--logo-bg);
+}
+
+@media (max-width: 720px) {
+    #logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    #header h1, #header h2 {
+        font-size: 1rem;
+    }
+
+    #body {
+        padding: 20px 12px;
+    }
+
+    #body>* {
+        padding: 18px;
+        border-radius: 6px;
+    }
+}
