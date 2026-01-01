@@ -31,7 +31,7 @@
         "@stylistic/eslint-plugin": "5.5.0",
         "@types/express": "5.0.5",
         "@types/html-minifier-terser": "7.0.2",
-        "@types/node": "24.10.0",
+        "@types/node": "25.0.3",
         "eslint-plugin-jsdoc": "61.1.12"
     },
     "scripts": {
