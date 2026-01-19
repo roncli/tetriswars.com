@@ -19,5 +19,8 @@ COPY . .
 # Allow start script to run.
 RUN chmod +x /var/www/*.sh
 
-# Expose port 3030.
-EXPOSE 3030
+# Expose port 8080.
+EXPOSE 8080
+
+# Start the application.
+ENTRYPOINT ["/var/www/start.sh"]

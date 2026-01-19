@@ -22,7 +22,7 @@ class IndexView {
                     <meta charset="utf-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="robots" content="index,follow" />
-                    <meta name="theme-color" content="#0377a8" />
+                    <meta name="theme-color" content="#061e70" />
                     <meta name="description" content="Play 8-player classic Tetris events with other players online in real-time!" />
                     <meta name="keywords" content="tetris, nes tetris, nintendo tetris, classic tetris, tetris wars, tetris online, multiplayer tetris, tetris tournaments" />
                     <meta name="format-detection" content="telephone=no" />

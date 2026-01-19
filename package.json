@@ -1,6 +1,6 @@
 {
     "name": "tetriswars.com",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "The website and bot for Classic Tetris Wars.",
     "homepage": "https://github.com/roncli/tetriswars.com",
     "bugs": {
@@ -35,6 +35,7 @@
         "eslint-plugin-jsdoc": "62.1.0"
     },
     "scripts": {
-        "reinstall": "(if exist node_modules rmdir /s /q node_modules) & npm install"
+        "reinstall": "(if exist node_modules rmdir /s /q node_modules) & npm install",
+        "run": "node ."
     }
 }

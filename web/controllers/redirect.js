@@ -34,7 +34,7 @@ class Redirect extends RouterBase {
      */
     static get(req, res, next) {
         // Implement the logic for processing the request
-        const redirect = Redirects[req.path];
+        const redirect = Redirects[req.path.toLocaleLowerCase()];
         if (!redirect) {
             next();
             return;

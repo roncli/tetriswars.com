@@ -13,11 +13,11 @@ class HomeView {
             <div id="home">
                 <img src="/images/logo-500.png" alt="Tetris Wars Logo" id="homeLogo" />
                 <div><h1>WATCH</h1><h2>Events on Twitch</h2></div>
-                <a href="/twitch"><img src="/images/twitch.png" alt="Watch on Twitch" id="twitchButton" /></a>
+                <a href="/twitch" target="_blank"><img src="/images/twitch.png" alt="Watch on Twitch" id="twitchButton" /></a>
                 <div><h1>VIEW</h1><h2>Highlights on YouTube</h2></div>
-                <a href="/youtube"><img src="/images/youtube.png" alt="View Highlights on YouTube" id="youtubeButton" /></a>
+                <a href="/youtube" target="_blank"><img src="/images/youtube.png" alt="View Highlights on YouTube" id="youtubeButton" /></a>
                 <div><h1>JOIN</h1><h2>Discord to Start Playing!</h2></div>
-                <a href="/discord"><img src="/images/discord.png" alt="Join Discord" id="discordButton" /></a>
+                <a href="/discord" target="_blank"><img src="/images/discord.png" alt="Join Discord" id="discordButton" /></a>
             </div>
         `;
     }
