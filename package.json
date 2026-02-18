@@ -19,7 +19,7 @@
     "license": "MIT",
     "dependencies": {
         "@roncli/node-application-insights-logger": "roncli/node-application-insights-logger#v2.0.2",
-        "@roncli/node-minify": "roncli/node-minify#v1.2.4",
+        "@roncli/node-minify": "roncli/node-minify#v1.2.5",
         "compression": "1.8.1",
         "express": "5.2.1",
         "hot-router": "2.0.0-beta.7",
