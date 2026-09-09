@@ -1,6 +1,6 @@
 {
     "name": "tetriswars.com",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "The website and bot for Classic Tetris Wars.",
     "homepage": "https://github.com/roncli/tetriswars.com",
     "bugs": {

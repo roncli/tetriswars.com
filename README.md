@@ -4,7 +4,12 @@ The official website for Classic Tetris Wars.  You can see this site in action a
 
 ## Version History
 
-### v0.0.2 - 01/19/2026
+### v0.0.3 - 9/8/2026
+
+- Added redirect for Matcherino.
+- Package updates.
+
+### v0.0.2 - 1/19/2026
 
 - Update home page links to open in new tabs.
 - Made redirects case-insensitive.
