@@ -104,12 +104,12 @@ class Index {
             Log.error(data.message, {err: data.err, req: data.req});
         });
         try {
-            app.use("/", await router.getRouter(path.join(__dirname, "web"), {hot: false}));
+            await router.setRoutes(path.join(__dirname, "web"), app, {hot: false});
         } catch (err) {
             Log.critical("Could not set up routes.", {err});
         }
 
-        app.use((err, req, res, next) => {
+        app.use((/** @type {HttpErrors.HttpError} */err, /** @type {express.Request} */req, /** @type {express.Response} */res, /** @type {express.NextFunction} */next) => {
             router.error(err, req, res, next);
         });
 
