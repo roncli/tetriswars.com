@@ -13,7 +13,7 @@ module.exports = {
         path: "https://discord.gg/baUFXhC7tt"
     },
     "/matcherino": {
-        type: "permanent",
+        type: "temporary",
         path: "https://matcherino.com/tournaments/208143"
     }
 };
