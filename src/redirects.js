@@ -14,6 +14,6 @@ module.exports = {
     },
     "/matcherino": {
         type: "permanent",
-        path: "https://matcherino.com/tournaments/217954"
+        path: "https://matcherino.com/tournaments/208143"
     }
 };
